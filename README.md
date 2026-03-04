@@ -16,7 +16,7 @@ Run Ollama and pull one of the models:
 
 ```bash
 ollama serve
-ollama run deepseek-r1:latest
+ollama run qwen2.5:14b
 ```
 
 If you are using the CE edition, you'll need to run Redis.
