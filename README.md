@@ -41,6 +41,15 @@ And
 
     bundle install
 
+Then install and run the migrations
+
+```
+bin/rails dradis_plugins_echo:install:migrations
+
+bin/rails db:migrate
+```
+
+
 Lastly, restart your Dradis server, and you should see Echo available in your instance.
 
 
