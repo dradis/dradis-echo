@@ -39,7 +39,7 @@ Add this to your `Gemfile.plugins`:
 
 And
 
-    bundle install
+    RAILS_ENV=production bundle install
 
 Then install and run the migrations
 
@@ -47,6 +47,11 @@ Then install and run the migrations
 bin/rails dradis_plugins_echo:install:migrations
 
 bin/rails db:migrate
+```
+
+If running this in a production environment, compile the assets:
+```
+RAILS_ENV=production bin/rails assets:precompile
 ```
 
 
