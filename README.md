@@ -1,5 +1,8 @@
 # Echo: Context-aware automation for Dradis
 
+**Notice**: this addon has been merged into the [Dradis CE repo](/dradis/dradis-ce) and will be part of the framework from the next release.
+
+
 Echo ships with a flexible prompting engine that uses Liquid Dynamic Content to provide full context about your project and findings, so you can craft relevant prompts to get the most accurate answers. Your data always stays local to uphold data sovereignty.
 
 
